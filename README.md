@@ -1,10 +1,10 @@
-![Intro](./assets/hero.svg?v=2)
+![Intro](./assets/hero.svg?v=3)
 
-![About](./assets/about-life.svg?v=2)
+![About](./assets/about-life.svg?v=3)
 
-![Stack](./assets/stack.svg?v=2)
+![Stack](./assets/stack.svg?v=3)
 
-![ID](./assets/id-dashboard.svg?v=2)
+![ID](./assets/id-dashboard.svg?v=3)
 
 ### Selected Projects
 
@@ -14,10 +14,14 @@
 | **mcp-shield** | Security layer for MCP & tool-hijacking defense | [View Repo](https://github.com/abhinandanpandey-in/mcp-shield) |
 | **Agent-Isolate-X** | Privilege separation & sandboxing framework for autonomous agents | [View Repo](https://github.com/abhinandanpandey-in/Agent-Isolate-X) |
 
-![Connect](./assets/connect.svg?v=2)
+![Connect](./assets/connect.svg?v=3)
 
 <p align="center">
-  <a href="https://abhinandanpandey-in-github-io.pages.dev/"><strong>Portfolio</strong></a> &nbsp;•&nbsp;
-  <a href="https://linkedin.com/in/abhinandanpandey-in"><strong>LinkedIn</strong></a> &nbsp;•&nbsp;
-  <a href="https://www.instagram.com/tenacious_n16h7m4r3_mr_lucifer"><strong>Instagram</strong></a>
+  <a href="https://abhinandanpandey-in-github-io.pages.dev/" target="_blank"><img src="./assets/icon-portfolio.svg?v=3" width="44" height="44" alt="Portfolio" /></a>
+  &nbsp;&nbsp;
+  <a href="https://linkedin.com/in/abhinandanpandey-in" target="_blank"><img src="./assets/icon-linkedin.svg?v=3" width="44" height="44" alt="LinkedIn" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.geeksforgeeks.org/profile/abhinandanpandeysince2006" target="_blank"><img src="./assets/icon-gfg.svg?v=3" width="44" height="44" alt="GeeksforGeeks" /></a>
+  &nbsp;&nbsp;
+  <a href="https://www.instagram.com/tenacious_n16h7m4r3_mr_lucifer" target="_blank"><img src="./assets/icon-instagram.svg?v=3" width="44" height="44" alt="Instagram" /></a>
 </p>
