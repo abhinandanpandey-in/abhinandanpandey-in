@@ -1,29 +1,58 @@
 <div align="center">
-
-![Hero](./assets/hero.svg?v=1)
-
+  <img src="assets/profile-portraits.png" alt="Abhinandan Pandey" width="760" />
 </div>
 
-![About](./assets/about-life.svg?v=1)
+<h1 align="center">Abhinandan Pandey</h1>
 
-![Technical stack](./assets/stack.svg?v=1)
+<p align="center">
+  <strong>Independent LLM Security Researcher · AI Red Teamer</strong>
+</p>
 
-![Research identity](./assets/id-dashboard.svg?v=1)
+<p align="center">
+  <a href="https://abhinandanpandey-in.github.io/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/abhinandanpandey-in/">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:raftaarr737@gmail.com">Email</a>
+</p>
+
+---
+
+I work on the security of LLM-powered systems, with a focus on how instructions, tools, and agent workflows can be manipulated.
+
+My current research interests include:
+
+- Prompt injection in agentic AI systems
+- Tool hijacking and unsafe tool execution
+- LLM application and pipeline red teaming
+- Security boundaries for AI agents and RAG systems
 
 ## Selected work
 
-| Project | What it explores | Repository |
-|---|---|---|
-| **MCP Shield** | Static security scanner and drift detector for MCP tool manifests. Detects tool poisoning, manifest drift and confused-deputy risks. | [View repository](https://github.com/abhinandanpandey-in/mcp-shield) |
-| **Agent-Isolate-X** | Dual-core isolation architecture for mitigating indirect prompt injection in agentic systems. | [View repository](https://github.com/abhinandanpandey-in/Agent-Isolate-X) |
-| **LLM Agent RedTeam Toolkit** | Automated fuzzing framework for evaluating prompt-injection and tool-hijacking risks in agentic LLM workflows. | [View repository](https://github.com/abhinandanpandey-in/LLM-Agent-RedTeam-Toolkit) |
-| **Threat-Intel-RAG** | Offline threat-intelligence RAG pipeline using LangChain, Chroma and a LoRA-tuned model for structured extraction. | [View repository](https://github.com/abhinandanpandey-in/threat-intel-rag) |
-| **Local Healthcare RAG** | Local RAG chatbot using Streamlit, FastAPI, FAISS and Ollama, with deterministic emergency triggers and scope filtering. | [View repository](https://github.com/abhinandanpandey-in/local_healthcare_rag) |
+### `threat-intel-rag`
+An offline threat-intelligence RAG project built with LangChain, Chroma, and a Qwen2.5 LoRA model, using CISA Known Exploited Vulnerabilities data.
 
-![Connect](./assets/connect.svg?v=1)
+### `local_healthcare_rag`
+A local healthcare RAG prototype built with Phi-3, Ollama, and FAISS, including a safety layer.
 
-<div align="center">
+### `Agent-Isolate-X`
+An AI security project. More implementation details will be added here as the project documentation is published.
 
-[![GitHub](https://img.shields.io/badge/GitHub-Profile-d4af37?style=flat-square&logo=github&logoColor=black)](https://github.com/abhinandanpandey-in) &nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-d4af37?style=flat-square&logo=linkedin&logoColor=black)](https://www.linkedin.com/in/abhinandanpandey-in/) &nbsp; [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-d4af37?style=flat-square&logo=googlechrome&logoColor=black)](https://abhinandanpandey-in.github.io/) &nbsp; [![Email](https://img.shields.io/badge/Email-Contact-d4af37?style=flat-square&logo=gmail&logoColor=black)](mailto:raftaarr737@gmail.com)
+## Technical interests
 
-</div>
+`Python` · `LLM Security` · `AI Red Teaming` · `Prompt Injection` · `LangChain` · `Chroma` · `Qwen2.5` · `Phi-3` · `Ollama` · `FAISS` · `RAG`
+
+## Background
+
+**B.Tech, Computer Science & Engineering**  
+Dr. A.P.J. Abdul Kalam Technical University (AKTU)
+
+---
+
+<p align="center">
+  <a href="https://github.com/abhinandanpandey-in">GitHub</a>
+  &nbsp;·&nbsp;
+  <a href="https://abhinandanpandey-in.github.io/">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/abhinandanpandey-in/">LinkedIn</a>
+</p>
