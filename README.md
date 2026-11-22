@@ -1,58 +1,23 @@
-<div align="center">
-  <img src="assets/profile-portraits.png" alt="Abhinandan Pandey" width="760" />
-</div>
+![Intro](./assets/hero.svg?v=2)
 
-<h1 align="center">Abhinandan Pandey</h1>
+![About](./assets/about-life.svg?v=2)
 
-<p align="center">
-  <strong>Independent LLM Security Researcher · AI Red Teamer</strong>
-</p>
+![Stack](./assets/stack.svg?v=2)
 
-<p align="center">
-  <a href="https://abhinandanpandey-in.github.io/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/abhinandanpandey-in/">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:raftaarr737@gmail.com">Email</a>
-</p>
+![ID](./assets/id-dashboard.svg?v=2)
 
----
+### Selected Projects
 
-I work on the security of LLM-powered systems, with a focus on how instructions, tools, and agent workflows can be manipulated.
+| Project | Focus | Repository |
+| :--- | :--- | :--- |
+| **LLM-Agent-RedTeam-Toolkit** | Automated fuzzing & deterministic guardrail testing for LLM agents | [View Repo](https://github.com/abhinandanpandey-in/LLM-Agent-RedTeam-Toolkit) |
+| **mcp-shield** | Security layer for MCP & tool-hijacking defense | [View Repo](https://github.com/abhinandanpandey-in/mcp-shield) |
+| **Agent-Isolate-X** | Privilege separation & sandboxing framework for autonomous agents | [View Repo](https://github.com/abhinandanpandey-in/Agent-Isolate-X) |
 
-My current research interests include:
-
-- Prompt injection in agentic AI systems
-- Tool hijacking and unsafe tool execution
-- LLM application and pipeline red teaming
-- Security boundaries for AI agents and RAG systems
-
-## Selected work
-
-### `threat-intel-rag`
-An offline threat-intelligence RAG project built with LangChain, Chroma, and a Qwen2.5 LoRA model, using CISA Known Exploited Vulnerabilities data.
-
-### `local_healthcare_rag`
-A local healthcare RAG prototype built with Phi-3, Ollama, and FAISS, including a safety layer.
-
-### `Agent-Isolate-X`
-An AI security project. More implementation details will be added here as the project documentation is published.
-
-## Technical interests
-
-`Python` · `LLM Security` · `AI Red Teaming` · `Prompt Injection` · `LangChain` · `Chroma` · `Qwen2.5` · `Phi-3` · `Ollama` · `FAISS` · `RAG`
-
-## Background
-
-**B.Tech, Computer Science & Engineering**  
-Dr. A.P.J. Abdul Kalam Technical University (AKTU)
-
----
+![Connect](./assets/connect.svg?v=2)
 
 <p align="center">
-  <a href="https://github.com/abhinandanpandey-in">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="https://abhinandanpandey-in.github.io/">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/abhinandanpandey-in/">LinkedIn</a>
+  <a href="https://abhinandanpandey-in-github-io.pages.dev/"><strong>Portfolio</strong></a> &nbsp;•&nbsp;
+  <a href="https://linkedin.com/in/abhinandanpandey-in"><strong>LinkedIn</strong></a> &nbsp;•&nbsp;
+  <a href="https://www.instagram.com/tenacious_n16h7m4r3_mr_lucifer"><strong>Instagram</strong></a>
 </p>
