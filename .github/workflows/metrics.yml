@@ -1,0 +1,71 @@
+﻿name: Activity Pulse
+
+on:
+  schedule:
+    - cron: "31 8 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  pulse:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@v3.35.0
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: abhinandanpandey-in
+          filename: assets/metrics.activity.svg
+          template: classic
+          base: ""
+
+          plugin_activity: yes
+          plugin_activity_limit: 5
+          plugin_activity_days: 30
+          plugin_activity_filter: all
+
+          plugin_traffic: yes
+
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+
+          config_timezone: Asia/Kolkata
+          config_padding: 0, 8 + 4%
+          config_animations: yes
+
+          extras_css: |
+            svg {
+              background: linear-gradient(135deg, #070b16 0%, #0c1326 100%) !important;
+              border: 1.5px solid rgba(36, 123, 255, 0.55) !important;
+              border-radius: 22px !important;
+              color: #e6eeff !important;
+              font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+            }
+            h2, h3 {
+              color: #247bff !important;
+              font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
+              text-transform: uppercase;
+              letter-spacing: 1.2px;
+            }
+            .field, .details, .activity .content {
+              color: #b7c2dc !important;
+            }
+            .activity .bold, .repo, strong {
+              color: #f4f7ff !important;
+            }
+            .activity .timestamp {
+              color: #7c93bd !important;
+              font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
+            }
+            .diff-handle, .added {
+              color: #247bff !important;
+            }
+            .deleted {
+              color: #ff354f !important;
+            }
+            svg path.octicon, .field svg {
+              fill: #ff354f !important;
+            }
