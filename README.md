@@ -14,7 +14,7 @@
 | **mcp-shield** | Security layer for MCP & tool-hijacking defense | [View Repo](https://github.com/abhinandanpandey-in/mcp-shield) |
 | **Agent-Isolate-X** | Privilege separation & sandboxing framework for autonomous agents | [View Repo](https://github.com/abhinandanpandey-in/Agent-Isolate-X) |
 
-<img src="./assets/metrics.activity.svg" alt="Activity Pulse" width="100%" />
+<img src="./assets/metrics.activity.svg?v=3" alt="Activity Pulse" width="100%" />
 
 ![Connect](./assets/connect.svg?v=3)
 
@@ -27,5 +27,6 @@
   &nbsp;&nbsp;
   <a href="https://www.instagram.com/tenacious_n16h7m4r3_mr_lucifer" target="_blank"><img src="./assets/icon-instagram.svg?v=3" width="44" height="44" alt="Instagram" /></a>
 </p>
+
 
 
