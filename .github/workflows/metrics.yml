@@ -21,16 +21,16 @@ jobs:
           filename: assets/metrics.activity.svg
           template: classic
           base: ""
+          config_display: large
 
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 30
-          plugin_activity_filter: all
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
 
-          plugin_traffic: yes
-
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
+          plugin_habits: yes
+          plugin_habits_from: 100
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
 
           config_timezone: Asia/Kolkata
           config_padding: 0, 8 + 4%
@@ -50,23 +50,15 @@ jobs:
               text-transform: uppercase;
               letter-spacing: 1.2px;
             }
-            .field, .details, .activity .content {
+            .field, .details, .chart-bars .entry .value {
               color: #b7c2dc !important;
             }
-            .activity .bold, .repo, strong {
+            strong, .bold {
               color: #f4f7ff !important;
             }
-            .activity .timestamp {
-              color: #7c93bd !important;
-              font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace !important;
-            }
-            .diff-handle, .added {
-              color: #247bff !important;
-            }
-            .deleted {
-              color: #ff354f !important;
+            .chart-bars .entry .bar {
+              background-color: #247bff !important;
             }
             svg path.octicon, .field svg {
               fill: #ff354f !important;
             }
-
