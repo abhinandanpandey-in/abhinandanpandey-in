@@ -53,7 +53,8 @@ jobs:
             .h-icon, svg.octicon {
               fill: #ff354f !important;
             }
-            svg.calendar, .isocalendar svg {
+            svg.large svg:not([width="16"]) {
               filter: invert(0.92) hue-rotate(260deg) saturate(1.8) brightness(0.95) !important;
             }
+
 
