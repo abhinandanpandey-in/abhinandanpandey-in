@@ -24,20 +24,14 @@ jobs:
           config_display: large
 
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
-
-          plugin_habits: yes
-          plugin_habits_from: 100
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_isocalendar_duration: full-year
 
           config_timezone: Asia/Kolkata
           config_padding: 0, 8 + 4%
           config_animations: yes
 
           extras_css: |
-            svg {
+            svg.large {
               background: linear-gradient(135deg, #070b16 0%, #0c1326 100%) !important;
               border: 1.5px solid rgba(36, 123, 255, 0.55) !important;
               border-radius: 22px !important;
@@ -50,15 +44,12 @@ jobs:
               text-transform: uppercase;
               letter-spacing: 1.2px;
             }
-            .field, .details, .chart-bars .entry .value {
+            .field, .details {
               color: #b7c2dc !important;
             }
             strong, .bold {
               color: #f4f7ff !important;
             }
-            .chart-bars .entry .bar {
-              background-color: #247bff !important;
-            }
-            svg path.octicon, .field svg {
+            .h-icon, svg.octicon {
               fill: #ff354f !important;
             }
