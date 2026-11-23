@@ -24,6 +24,9 @@ strong, .bold {
 }
 .h-icon, svg.octicon {
  fill: #ff354f !important;
+}
+.isocalendar svg {
+ filter: invert(0.92) hue-rotate(260deg) saturate(1.8) brightness(0.95) !important;
 }</style>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
